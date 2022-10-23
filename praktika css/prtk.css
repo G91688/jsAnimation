@@ -1,0 +1,57 @@
+body{
+	padding: 0px;auto;
+	margin: 0px;
+}
+
+.kvadrat{	
+	width: 200px;
+	height: 200px;
+	float: left;
+	align-items: center;
+	justify-content: center;
+	
+	display: flex;
+	
+	animation-duration: 10s;
+	animation-name: kvadrat;
+	background-size: 200px;200px;
+	animation-iteration-count: 3;
+	position: absolute;
+
+
+}
+@keyframes kvadrat{
+	0% {
+		top: 0px;
+		left: 0px;
+		transform: rotateX(180deg);
+
+		background-image:url(https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2018/05/hith-10-things-sigmund-freud-501585595.jpg); 
+		}
+	25%{
+		top: 0px;
+		left: 200px;
+		transform: rotateY(180deg);
+
+		background-image: url(https://th.bing.com/th/id/R.ef550f96ef5eb7ed99985e5bacf667a4?rik=1JKH1RH0OlKwGA&riu=http%3a%2f%2fcigarmonkeys.com%2fwp-content%2fuploads%2f2019%2f11%2fsigmund-freud-cartoons-karikature-cigramonkeys.com-cigar-smoke-1.jpg&ehk=i0gNfNqMU8nmfqaE633kQAFjDc0qpJm75LvlP6BnKS4%3d&risl=&pid=ImgRaw&r=0) ;
+		}
+	50%{
+		top: 200px;
+		left: 200px ; 
+		transform: rotateX(180deg);
+			background-image: url(https://cdn.domestika.org/c_fill,dpr_1.0,h_1200,t_base_params.format_jpg,w_1200/v1412091228/project-covers/000/142/142/142142-original-Sigmund_Freudbaja.jpg?1412091228);
+		}
+	75%{
+			top: 200px;
+			left: 0px;
+			transform: rotateY(180deg);
+
+			background-image: url(https://preview.redd.it/gtp4gj2w9cp01.jpg?auto=webp&s=03b84febcc4d226ef4363c704bfcb5e7402984c2);
+		}
+		100%{
+			top: 0px;
+			left: 0px;
+			transform: rotateX(180deg);
+			background-image: url(https://barbarapijan.com/bpa/Scientist_Philosopher/FreudSigismund_childhood.PNG);
+		}
+}
